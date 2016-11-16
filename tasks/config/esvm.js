@@ -18,6 +18,7 @@ module.exports = function (grunt) {
       options: {
         directory: resolve(directory, 'dev'),
         config: {
+          "http.host": "0.0.0.0",
           path: {
             data: dataDir
           },
